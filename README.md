@@ -4,3 +4,5 @@
 ### CodeClimate 
 [![Maintainability](https://api.codeclimate.com/v1/badges/487e17fe16141caa4b2a/maintainability)](https://codeclimate.com/github/s-gala/python-project-49/maintainability)
 
+### Asciinema even
+[![Demo](https://asciinema.org/a/2FfeOCm4Dq9QOqLXP9wKoP7lt)
