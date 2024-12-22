@@ -1,7 +1,6 @@
 import random
 from random import randint
 
-
 instruction = "What is result of the expression?" 
 
 

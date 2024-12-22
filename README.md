@@ -9,3 +9,6 @@
 
 ### Asciinema even and calc
 [![Demo](https://asciinema.org/a/I5Igo5X4xIsyGS50CBBa0Qcld)
+
+### Asciinema gcd
+[![Demo](https://asciinema.org/a/3Nyh8N1i0CPdvK2vNJtHHjDXW)
