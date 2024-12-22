@@ -12,3 +12,6 @@
 
 ### Asciinema gcd
 [![Demo](https://asciinema.org/a/3Nyh8N1i0CPdvK2vNJtHHjDXW)
+
+### Asciinema progression
+[![Demo](https://asciinema.org/a/wWDvdSM2FQGVay1PpYbukSDEJ)
