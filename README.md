@@ -6,3 +6,6 @@
 
 ### Asciinema even
 [![Demo](https://asciinema.org/a/2FfeOCm4Dq9QOqLXP9wKoP7lt)
+
+### Asciinema even and calc
+[![Demo](https://asciinema.org/a/I5Igo5X4xIsyGS50CBBa0Qcld)
