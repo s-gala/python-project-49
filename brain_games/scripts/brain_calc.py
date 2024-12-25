@@ -2,11 +2,19 @@
 
 def main():
     from brain_games.games import for_all_games, for_brain_calc
-    name = for_all_games.welcome_user()
-    instruction = for_brain_calc.instruction
-    questions_answers_calc = for_brain_calc.question_answer_calc()
-    for_all_games.game_engine(instruction, questions_answers_calc, name)
-
-
+    INSTRUCTION = for_brain_calc.INSTRUCTION
+    name = for_all_games.welcome_user(INSTRUCTION)
+    swapped = True
+    i = 1
+    while swapped:            
+        if i < 4:
+            question, answer = for_brain_calc.question_answer_calc()
+            swapped = for_all_games.game_engine(question, answer, name)
+            i += 1
+        else:
+            print(f"Congratulations, {name}!")
+            break
+      
+             
 if __name__ == '__main__':
     main() 
