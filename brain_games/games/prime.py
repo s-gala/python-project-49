@@ -1,10 +1,9 @@
-from random import randint
-
 INSTRUCTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def question_answer_prime():
-    random_question = randint(1, 1000)
+    from brain_games.games import random_number
+    random_question = random_number.get_random_number(1, 100)
     k = 0
     for i in range(2, random_question // 2 + 1):
         if (random_question % i == 0):

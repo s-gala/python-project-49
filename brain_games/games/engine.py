@@ -9,7 +9,7 @@ def welcome_user(INSTRUCTION):
 
 
 def game_engine(random_question, right_answer, name):
-    print('Question: ' + str(random_question))
+    print(f"Question: {random_question}")
     answer = prompt.string('Your answer: ')
     if right_answer != answer:
         print(f"'{answer}' is wrong answer;(. ", end='')

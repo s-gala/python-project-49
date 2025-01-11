@@ -1,14 +1,13 @@
-from random import randint
-
 INSTRUCTION = "What number is missing in the progression?"
 
 
 def question_answer_progression():
-    x = randint(6, 11)
-    begin = randint(1, 40)
-    step = randint(1, int((100 - begin) / x - 1))
+    from brain_games.games import random_number
+    x = random_number.get_random_number(5, 11)
+    begin = random_number.get_random_number(1, 40)
+    step = random_number.get_random_number(1, int((100 - begin) / x - 1))
     progression = (list(range(begin, 100, step)[:x]))
-    i = randint(0, len(progression) - 1)
+    i = random_number.get_random_number(0, len(progression) - 1)
     right_answer = str(progression[i])
     progression[i] = '..'
     random_question = ''
