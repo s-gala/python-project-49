@@ -1,17 +1,12 @@
-import operator
-import random
+from brain_games import utils
+from brain_games.games import consts
 
-INSTRUCTION = "What is result of the expression?" 
+INSTRUCTION = consts.INSTRUCTION_CALC
 
 
-def question_answer_calc():
-    from brain_games.games import random_number
-    x = random_number.get_random_number(1, 100)
-    y = random_number.get_random_number(1, 100)
-    math_symbol = {'+': operator.add,
-                   '-': operator.sub,
-                   '*': operator.mul}
-    op = random.choice(list(math_symbol.keys()))
-    random_question = f'{x}{op}{y}'
-    right_answer = str(math_symbol.get(op)(x, y)) 
+def get_question_answer():
+    x, y = utils.get_random_number(1, 100), utils.get_random_number(1, 100)
+    sign, operator_metod = utils.get_random_operator()
+    random_question = f'{x}{sign}{y}'
+    right_answer = str(operator_metod(x, y)) 
     return random_question, right_answer

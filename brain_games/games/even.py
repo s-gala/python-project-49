@@ -1,12 +1,10 @@
-INSTRUCTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+from brain_games.games import consts
+
+INSTRUCTION = consts.INSTRUCTION_EVEN
 
 
-def question_answer_even():
-    from brain_games.games import random_number
-    random_question = random_number.get_random_number(1, 100)
-    right_answer = ''
-    if random_question % 2 == 0:
-        right_answer = 'yes'
-    else:
-        right_answer = 'no'
+def get_question_answer():
+    from brain_games import utils
+    random_question = utils.get_random_number(1, 100)
+    right_answer = 'yes' if random_question % 2 == 0 else 'no'
     return random_question, right_answer
