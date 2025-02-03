@@ -14,7 +14,7 @@ def get_question_answer():
                    ('*', first_num * second_num),
     ]
     random_math_operation = random.choice(math_operation)
-    random_question = f'{first_num}{random_math_operation[0]}{second_num}'
+    random_question = (f'{first_num}{random_math_operation[0]}{second_num}')
     right_answer = str(random_math_operation[1]) 
     return random_question, right_answer
 

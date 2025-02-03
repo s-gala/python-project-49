@@ -13,7 +13,7 @@ def get_question_answer():
     index_hidden_num = get_random_number(0, len(progression) - 1)
     right_answer = str(progression[index_hidden_num])
     progression[index_hidden_num] = '..'
-    random_question = ' '.join(str(num) for num in progression)
+    random_question = (' '.join(str(num) for num in progression))
     return random_question, right_answer
 
 

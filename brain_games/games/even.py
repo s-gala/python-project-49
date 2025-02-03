@@ -6,7 +6,7 @@ INSTRUCTION = consts.INSTRUCTION_EVEN
 
 
 def get_question_answer():
-    random_question = get_random_number(1, 100)
+    random_question = (get_random_number(1, 100))
     right_answer = 'yes' if is_even(random_question) else 'no'
     return random_question, right_answer
 
