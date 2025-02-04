@@ -13,7 +13,7 @@ def get_question_answer():
     
 def is_prime(num):
     acc = 0
-    for i in range(2, int(num ** (0.5))):
+    for i in range(2, int(num ** (0.5) + 1)):
         if (num % i == 0):
             acc = acc + 1
     return acc == 0
