@@ -1,4 +1,4 @@
-INSTRUCTION_CALC = "What is result of the expression?" 
+INSTRUCTION_CALC = "What is the result of the expression?" 
 
 INSTRUCTION_EVEN = 'Answer "yes" if the number is even, otherwise answer "no".'
 
