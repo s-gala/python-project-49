@@ -2,22 +2,22 @@
 [![Actions Status](https://github.com/s-gala/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/s-gala/python-project-49/actions)
 
 ### CodeClimate 
-[![Maintainability](https://api.codeclimate.com/v1/badges/487e17fe16141caa4b2a/maintainability)](https://codeclimate.com/github/s-gala/python-project-49/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/487e17fe16141caa4b2a/maintainability.svg)](https://codeclimate.com/github/s-gala/python-project-49/maintainability)
 
 ### Asciinema even
-[![asciicast]( https://asciinema.org/a/wRnu8Sf53kCCvUfgqQixs0EPh.svg )( https://asciinema.org/a/wRnu8Sf53kCCvUfgqQixs0EPh )
+[![asciicast]( https://asciinema.org/a/wRnu8Sf53kCCvUfgqQixs0EPh.svg )]( https://asciinema.org/a/wRnu8Sf53kCCvUfgqQixs0EPh )
 
 ### Asciinema calc
-[![asciicast]( https://asciinema.org/a/S9Bly86EkmrpnTJhsAJU8pQDl.svg )( https://asciinema.org/a/S9Bly86EkmrpnTJhsAJU8pQDl )
+[![asciicast]( https://asciinema.org/a/S9Bly86EkmrpnTJhsAJU8pQDl.svg )]( https://asciinema.org/a/S9Bly86EkmrpnTJhsAJU8pQDl )
 
 ### Asciinema gcd
-[![asciicast]( https://asciinema.org/a/L5FDJeBgVySllsh5oELOwTtKa.svg )( https://asciinema.org/a/L5FDJeBgVySllsh5oELOwTtKa )
+[![asciicast]( https://asciinema.org/a/L5FDJeBgVySllsh5oELOwTtKa.svg )]( https://asciinema.org/a/L5FDJeBgVySllsh5oELOwTtKa )
 
 ### Asciinema progression
-[![asciicast]( https://asciinema.org/a/geOtpvl2IneSE65iIyp3BSoGY.svg )( https://asciinema.org/a/geOtpvl2IneSE65iIyp3BSoGY ))
+[![asciicast]( https://asciinema.org/a/geOtpvl2IneSE65iIyp3BSoGY.svg )]( https://asciinema.org/a/geOtpvl2IneSE65iIyp3BSoGY )
 
 ### Asciinema prime 
-[![asciicast]( https://asciinema.org/a/j2PgQoMiKCmVM1duYVp8pnN3i.svg )( https://asciinema.org/a/j2PgQoMiKCmVM1duYVp8pnN3i )
+[![asciicast]( https://asciinema.org/a/j2PgQoMiKCmVM1duYVp8pnN3i.svg )]( https://asciinema.org/a/j2PgQoMiKCmVM1duYVp8pnN3i )
 
 ### Brain-games
 The game "Brain-games" includes 5 games. 
