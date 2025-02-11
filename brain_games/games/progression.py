@@ -6,11 +6,7 @@ INSTRUCTION = PROGRESSION_INSTRUCTION
 
 
 def get_question_answer():
-    length = get_random_number(5, 11)
-    begin = get_random_number(1, 40)
-    step = get_random_number(1, int((100 - begin) / length - 1))
-    end = begin + length * step
-    progression = list(range(begin, end, step))
+    progression = [num for num in range(get_random_number(1, 40), 130, get_random_number(1, 11))][:get_random_number(5,11)] 
     index_hidden_num = get_random_number(0, len(progression) - 1)
     right_answer = progression[index_hidden_num]
     progression[index_hidden_num] = '..'
