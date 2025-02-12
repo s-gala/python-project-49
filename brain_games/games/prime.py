@@ -2,8 +2,6 @@ from brain_games.consts import PRIME_INSTRUCTION
 from brain_games.engine import game_engine
 from brain_games.utils import get_random_number
 
-INSTRUCTION = PRIME_INSTRUCTION
-
 
 def get_question_answer():
     question = get_random_number(1, 100)
@@ -21,4 +19,4 @@ def get_check_prime(num):
 
 
 def start_prime():
-    return game_engine(INSTRUCTION, get_question_answer)
+    return game_engine(PRIME_INSTRUCTION, get_question_answer)

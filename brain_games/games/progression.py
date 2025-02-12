@@ -2,8 +2,6 @@ from brain_games.consts import PROGRESSION_INSTRUCTION
 from brain_games.engine import game_engine
 from brain_games.utils import get_random_number as random
 
-INSTRUCTION = PROGRESSION_INSTRUCTION
-
 
 def get_question_answer():
     progression = \
@@ -15,4 +13,4 @@ def get_question_answer():
 
 
 def start_progression():
-    return game_engine(INSTRUCTION, get_question_answer)
+    return game_engine(PROGRESSION_INSTRUCTION, get_question_answer)
